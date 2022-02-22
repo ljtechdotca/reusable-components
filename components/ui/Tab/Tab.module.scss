@@ -1,0 +1,10 @@
+.root {
+  display: grid;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid transparent;
+  text-decoration: unset;
+  color: inherit;
+  &:hover {
+    border-color: currentColor;
+  }
+}

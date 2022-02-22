@@ -1,0 +1,9 @@
+@use "@styles/media" as media;
+
+.root {
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+  @include media.break(tablet) {
+    padding: 6rem 1.5rem;
+  }
+}

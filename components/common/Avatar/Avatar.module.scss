@@ -1,0 +1,14 @@
+.root {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  display: grid;
+  img {
+    border-radius: 9999px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+}

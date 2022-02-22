@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  &:hover {
+    opacity: 0.5;
+  }
+}
